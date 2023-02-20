@@ -23,3 +23,13 @@ DB_PASSWORD=
 ---
 Etapa 3:
 
+Digite o comando: php artisan migrate;
+
+Atraves desse comando as tabelas seram carregadas automaticamente;
+
+---
+Etapa 4:
+
+Digite o comando: php artisan serve;
+
+Atraves desse comando o sistema vai disponibilizar uma url e assim poderá usar o sistema;

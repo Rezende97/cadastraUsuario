@@ -13,10 +13,10 @@ return new class extends Migration
     {
         Schema::create('moradias', function (Blueprint $table) {
             $table->id();
-            $table->foreignId('id_pessoas')->references('id')->on('pessoas');
+            $table->foreignId('pessoa_id')->references('id')->on('pessoas');
             $table->string('rua', 255);
             $table->string('bairro', 255);
-            $table->bigInteger('cep');
+            $table->string('cep');
             $table->longText('complemento');        
             $table->string('estado', 255);
             $table->timestamps();

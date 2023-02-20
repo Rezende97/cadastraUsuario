@@ -14,12 +14,11 @@ return new class extends Migration
         Schema::create('pessoas', function (Blueprint $table) {
             $table->id();
             $table->string('nome', 250);
-            $table->bigInteger('cpf');
-            $table->bigInteger('cnpj');
-            $table->bigInteger('rg');
+            $table->string('documento', 20);
+            $table->string('rg', 15);
             $table->date('data_nascimento');
-            $table->string('est_civil', 3);
-            $table->bigInteger('telefone');
+            $table->string('est_civil', 50);
+            $table->string('telefone', 14);
             $table->timestamps();
         });
     }
