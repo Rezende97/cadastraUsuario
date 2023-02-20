@@ -29,3 +29,6 @@ Etapa 4:
 Digite o comando: php artisan serve;
 
 Atraves desse comando o sistema vai disponibilizar uma url e assim poderá usar o sistema;
+
+---
+Observação: Certifique que esteja dentro do arquivo do projeto, pois, os comando php artisan só funcionam dentro do projeto laravel
