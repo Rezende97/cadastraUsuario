@@ -7,7 +7,12 @@ Criar a base de dados no MySql com o nome cadastraUsuario;
 Comando SQL para criação da base de Dados: CREATE DATABASE cadastraUsuario;
 
 ---
-Etapa 2: 
+Etapa 2:
+
+Altere o nome do arquivo .env.example para .env
+
+---
+Etapa 3: 
 
 Informar o nome da base de dados no arquivo .env do laravel para conexão;
 
@@ -21,14 +26,14 @@ DB_USERNAME=root
 DB_PASSWORD=
 
 ---
-Etapa 3:
+Etapa 4:
 
 Digite o comando: php artisan migrate;
 
 Atraves desse comando as tabelas seram carregadas automaticamente;
 
 ---
-Etapa 4:
+Etapa 5:
 
 Digite o comando: php artisan serve;
 
