@@ -9,7 +9,7 @@ Comando SQL para criação da base de Dados: CREATE DATABASE cadastraUsuario;
 ---
 Etapa 2:
 
-Altere o nome do arquivo .env.example para .env
+Ao realizar o download do sistema, certifique-se se o nome do arquivo .env foi alterado para .env.exampl, se foi aterado, realize essa alteração: o nome do arquivo .env.example para .env
 
 ---
 Etapa 3: 
